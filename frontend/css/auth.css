@@ -1,0 +1,72 @@
+/* auth.css */
+
+/* Reset some default styles */
+body, h1, h2, p, input, button {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #2C3E50; /* Dark blue background */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    flex: 1; /* Allow main content to grow */
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.auth-form {
+    margin: 20px 0;
+}
+
+.auth-form input {
+    display: block;
+    width: 300px;
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid #BDC3C7; /* Light border */
+    border-radius: 5px;
+}
+
+.auth-form button {
+    padding: 10px 20px;
+    background-color: #27AE60; /* Green color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.auth-form p {
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #2C3E50; /* Dark blue background */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed; /* Fix the footer at the bottom */
+    bottom: 0;
+    width: 100%;
+}
